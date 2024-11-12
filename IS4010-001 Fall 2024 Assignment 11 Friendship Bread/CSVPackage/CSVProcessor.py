@@ -2,6 +2,7 @@
 # Bill Nicholson
 # nicholdw@ucmail.uc.edu
 
+import csv
 
 class CSVProcessor:
     
@@ -10,4 +11,8 @@ class CSVProcessor:
         
     def process(self):
         print("Processing", self.__filename)
+        data = self.readData()
+
+    def readData(self):
+        return None
         
