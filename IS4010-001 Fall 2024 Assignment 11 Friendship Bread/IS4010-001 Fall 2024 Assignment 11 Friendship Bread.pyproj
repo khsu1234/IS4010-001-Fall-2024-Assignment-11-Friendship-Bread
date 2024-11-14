@@ -21,6 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cleaningPackage\deleteDupe.py" />
+    <Compile Include="cleaningPackage\deletePepsi.py" />
+    <Compile Include="cleaningPackage\twoDecimal.py" />
+    <Compile Include="cleaningPackage\updateZip.py" />
+    <Compile Include="cleaningPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CSVPackage\CSVProcessor.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,6 +40,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="cleaningPackage\" />
     <Folder Include="CSVPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="Data\" />
